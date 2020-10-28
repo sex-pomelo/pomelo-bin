@@ -1,6 +1,6 @@
 {
   "name": "@sex-pomelo/pomelo-bin",
-  "version": "2.2.25",
+  "version": "2.2.26",
   "homepage": "https://github.com/sex-pomelo/pomelo-bin",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "bin"
   ],
   "dependencies": {
-    "cliff": "0.1.10",
+    "clifflite": "0.0.3",
     "@sex-pomelo/sex-pomelo-admin": "^1.0.7",
     "commander": "2.0.0"
   },
