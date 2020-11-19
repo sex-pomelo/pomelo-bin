@@ -1,13 +1,12 @@
 {
   "name": "@sex-pomelo/pomelo-bin",
-  "version": "2.2.26",
+  "version": "2.2.27",
   "homepage": "https://github.com/sex-pomelo/pomelo-bin",
   "repository": {
     "type": "git",
     "url": "https://github.com/sex-pomelo/pomelo-bin"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "licenses": [
     {
       "type": "MIT",
@@ -24,13 +23,12 @@
     "bin"
   ],
   "dependencies": {
-    "clifflite": "0.0.3",
-    "@sex-pomelo/sex-pomelo-admin": "^1.0.7",
+    "clifflite": "^0.0.4",
+    "@sex-pomelo/sex-pomelo-admin": "^1.0.9",
     "commander": "2.0.0"
   },
   "bin": {
     "pomelo": "./bin/pomelo"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

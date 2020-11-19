@@ -1,0 +1,17 @@
+{
+    "name":"$",
+    "version":"0.0.1",
+    "private":false,
+    "dependencies":{
+        "@sex-pomelo/sex-pomelo":"#"
+    },
+    "scripts": {
+        "start": "pomelo start --env production -D",
+        "stop": "pomelo stop",
+        "dev": "pomelo start",
+        "config": "node-gyp configure --release",
+        "build": "node-gyp build",
+        "rebuild": "node-gyp rebuild"
+    }
+}
+
