@@ -1,4 +1,10 @@
-2.2.26 / 2020-10-28
+2.2.27 / 2020-11-19
+=================
+* update dep version;
+* add pomelo project init template
+
+
+
 =================
 * use clifflite replace cliff( node14  has **`warning`**)
 
