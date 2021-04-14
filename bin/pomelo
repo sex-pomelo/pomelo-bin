@@ -528,6 +528,7 @@ function restart(opts) {
 }
 
 function connectToMaster(id, opts, cb) {
+  opts.port = Number(opts.port);
   let client = new adminClient({username: opts.username, password: opts.password, md5: true});
   client.connect(id, opts.host, opts.port, function(err) {
     if(err) {
